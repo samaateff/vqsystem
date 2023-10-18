@@ -1832,6 +1832,8 @@ body,
 
 .about-area .tab-content .info a {
   margin-top: 10px;
+  /* padding: 20px; */
+  color: #0cb8b6;
 }
 
 .about-area .features-items i {
@@ -1967,7 +1969,7 @@ body,
 }
 
 .about-area .bottom .content {
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .about-area .bottom .content p {
@@ -2703,6 +2705,8 @@ body,
 =================================================================== */
 .tabs-items .nav-pills {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tabs-items .nav-pills li {
@@ -2711,7 +2715,7 @@ body,
 
 .tabs-items .nav-pills li a {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 15px 10px;
   border: 1px solid #e7e7e7;
   margin-right: 5px;
   position: relative;
@@ -2922,9 +2926,10 @@ body,
   border-radius: inherit;
 }
 
-.appoinment form button {
+.appoinment form a {
+  display: block;
   background: transparent;
-  padding: 10px 35px;
+  padding: 15px 35px;
   margin-top: 15px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -2939,9 +2944,11 @@ body,
   color: #232323;
   border: 2px solid #0cb8b6;
   background: transparent;
+  max-width: 50%;
+  border-radius: 5px;
 }
 
-.appoinment form button:hover {
+.appoinment form a:hover {
   background: #0cb8b6;
   color: #ffffff;
   border: 2px solid transparent;
@@ -2964,9 +2971,12 @@ body,
 .appoinment h3 {
   text-transform: capitalize;
   font-weight: 600;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
-
+.appoinment  a:hover,
+.appoinment  a:hover{
+  color: #0cb8b6;
+}
 
 .appoinment-box .appointment-schedule {
     margin-bottom: 30px;
@@ -3300,7 +3310,7 @@ body,
 }
 
 .faq-area .acd-items .panel-body {
-  padding: 30px 0 20px;
+  /* padding: 30px 0 20px; */
 }
 
 .acd-items .panel.panel-default {
@@ -5414,7 +5424,7 @@ body,
 =================================================================== */
 
 .error-box {
-  margin-top: -5px;
+  /* margin-top: -5px; */
 }
 
 .error-box h1 {
@@ -5434,14 +5444,13 @@ body,
 }
 
 .error-box .search {
-  border-top: 1px solid #e7e7e7;
-  margin-top: 30px;
-  padding-top: 30px;
+
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .error-box .search form {
-  width: 400px;
+  /* width: 400px; */
   margin: auto;
   position: relative;
   z-index: 1;
@@ -5449,6 +5458,7 @@ body,
 
 .error-box .search .input-group {
   margin: auto;
+  width: 100%;
 }
 
 .error-box .search form input {
@@ -5992,4 +6002,20 @@ footer .footer-bottom .social li a:hover {
   bottom: 0;
   background: #000;
   opacity: 0.5;
+}
+.panel-body a {
+  background: #e7e7e7;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+.panel-body a:hover{
+background: #0cb8b6;
+color: #fff;
+}
+.read-more:hover{
+  color: #fff !important;
+  background: #0cb8b6;
 }
