@@ -43,9 +43,43 @@ footer .f-item.recent-post li .info {
 footer .footer-bottom.bg-light p {
     text-align: end;
 }
+.breadcrumb-area .breadcrumb li::after {
+    left: unset;
+    right: -5px;
+}
+.breadcrumb-area h1{
+    text-align: left;
+}
+.navbar .side .widget h4::after {
+    left: unset;
+    right: 0;
+}
+.side .close-side{
+    float: left;
+}
+.top-search form button {
+    right: unset;
+   left: 0;
+}
+.appoinment .heading::before {
+    
+    left: unset;
+    right: 45px;
+    
+}
+.appoinment .heading::after {
+    left: unset;
+    right: 0;
+   
+}
 @media (max-width: 1023px){
 nav.navbar.bootsnav ul.nav ul.dropdown-menu ul.dropdown-menu {
     left: unset;
     right: 0;
 }
 }
+@media (max-width: 991px){
+    .breadcrumb-area h1{
+        text-align: center;
+    }
+    }

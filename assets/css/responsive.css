@@ -749,7 +749,7 @@
 
   .about-area .bottom .content {
     padding-left: 0;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .about-area .tabs-items {
@@ -1232,4 +1232,30 @@
   margin-bottom: 15px;
 }
 
+}
+
+@media only screen and (max-width: 991px) {
+.about-items .tab-content .info.title div{
+ text-align: center;
+}
+.about-items .tab-content .info.title > h5{
+  text-align: center;
+ }
+ .footer-bottom p{
+  text-align: center !important;
+  margin: auto !important;
+ }
+ .chose-us-area .appoinment {
+  padding-right: unset;
+  padding: 25px;
+}
+.appoinment form a{
+  max-width: 100%;
+}
+.about-area .info {
+margin-top: 2em;
+}
+.about-area .tab-content .info a{
+  margin: 1em auto !important;
+}
 }

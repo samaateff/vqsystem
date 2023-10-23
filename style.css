@@ -1942,7 +1942,7 @@ body,
 .about-area .bottom {
   border: 1px solid #e7e7e7;
   display: flex;
-  padding: 30px;
+  padding: 30px 30px 20px 30px;
   margin-top: 30px;
 }
 
@@ -6018,4 +6018,32 @@ color: #fff;
 .read-more:hover{
   color: #fff !important;
   background: #0cb8b6;
+}
+
+.bottom .content a {
+  text-decoration: underline;
+}
+.bottom .content a:hover{
+  color: #0cb8b6;
+}
+.content.equip{
+  text-align: center;
+  margin: auto;
+}
+.content.equip h4 {
+  color:#0cb8b6;
+}
+.single-video{
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+iframe {
+  max-width: 100%;
+}
+.head-item h4{
+  color: red;
+  /* margin: auto; */
+  text-align: center;
+  margin-bottom: unset !important;
 }
