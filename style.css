@@ -2926,7 +2926,8 @@ body,
   border-radius: inherit;
 }
 
-.appoinment form a {
+.appoinment form a,
+.appoinment form button {
   display: block;
   background: transparent;
   padding: 15px 35px;
@@ -2948,7 +2949,8 @@ body,
   border-radius: 5px;
 }
 
-.appoinment form a:hover {
+.appoinment form a:hover,
+.appoinment form button:hover {
   background: #0cb8b6;
   color: #ffffff;
   border: 2px solid transparent;
@@ -6047,3 +6049,4 @@ iframe {
   text-align: center;
   margin-bottom: unset !important;
 }
+
