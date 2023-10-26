@@ -1249,7 +1249,9 @@
   padding-right: unset;
   padding: 25px;
 }
-.appoinment form a{
+.appoinment form a,
+.appoinment form button
+{
   max-width: 100%;
 }
 .about-area .info {
