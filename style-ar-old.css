@@ -40,7 +40,9 @@ footer .f-item.recent-post li .info {
     padding-left: unset;
     padding-right: 20px;
 }
-
+footer .footer-bottom.bg-light p {
+    text-align: end;
+}
 .breadcrumb-area .breadcrumb li::after {
     left: unset;
     right: -5px;
@@ -90,67 +92,4 @@ nav.navbar.bootsnav ul.nav ul.dropdown-menu ul.dropdown-menu {
     .breadcrumb-area h1{
         text-align: center;
     }
-     .info-list{
-        text-align:center;
     }
-    }
-@media (min-width:992px){
-    .info-list{
-        text-align:left;
-        direction:ltr;
-    }
-    .top-bar-area .info li {
-    float: right;
-    }
-    .top-bar-area .info li::after {
-    right:unset;
-    left: -5px;
-    }
-    .navbar-right{
-        float:left !important;
-    }
-    nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
-    margin-left:unset;
-    margin-right: 5px;
-    margin-top: 2px;
-}
-nav.navbar.bootsnav ul.nav.navbar-right{
-    left:0;
-    /*right: auto;*/
-}
-.top-bar-area .info li {
-     margin-right: unset;
-    padding-right: unset;
-    margin-left: 20px;
-    padding-left: 20px;
- 
-}
-.last-footer-links{
-    text-align:left;
-}
-nav.navbar.bootsnav ul.nav.navbar-right{
-    left: auto;
-}
-.navbar-right .dropdown-menu {
-    /*right: 0;*/
-    right: 0;
-}
-nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a {
-    text-align:right;
-}
-nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before {
-    float: left;
-    transform: rotate(180deg);
-}
-.navbar-nav{
-    margin:auto;
-    text-align:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    float:unset !important;
-}
-nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu {
-    right: 100%;
-}
-}

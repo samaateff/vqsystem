@@ -107,6 +107,7 @@
             var $grid = $('#portfolio-grid').isotope({
                 itemSelector: '.pf-item',
                 percentPosition: true,
+                isOriginLeft: false,
                 masonry: {
                     columnWidth: '.pf-item',
                 }

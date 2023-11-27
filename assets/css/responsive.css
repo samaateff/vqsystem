@@ -1261,3 +1261,10 @@ margin-top: 2em;
   margin: 1em auto !important;
 }
 }
+@media (max-width:767px){
+
+  .mix-item-menu button{
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+  }
